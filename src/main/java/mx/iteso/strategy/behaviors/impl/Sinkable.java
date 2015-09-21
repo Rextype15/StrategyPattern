@@ -2,9 +2,9 @@ package mx.iteso.strategy.behaviors.impl;
 
 import mx.iteso.strategy.behaviors.FloatBehavior;
 
-public class Sinkables implements FloatBehavior {
+public class Sinkable implements FloatBehavior {
 
-    public String float() {
+    public String floating() {
         return "I'm Sinking in the water";
     }
 
