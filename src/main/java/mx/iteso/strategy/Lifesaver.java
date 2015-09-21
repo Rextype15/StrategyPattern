@@ -1,5 +1,8 @@
 package mx.iteso.strategy;
 
+import mx.iteso.strategy.behaviors.DeflateBehavior;
+import mx.iteso.strategy.behaviors.FloatBehavior;
+
 public class Lifesaver {
     public DeflateBehavior deflateBehavior;
     public FloatBehavior floatBehavior;
@@ -15,7 +18,7 @@ public class Lifesaver {
     }
 
     public String deflating() {
-        return deflateBehavior.defleate();
+        return deflateBehavior.deflate();
     }
 
     public String floating() {
